@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Dancing+Script&family=Libre+Baskerville:ital@1&family=Questrial&display=swap');
+
+body {
+    font-family: 'Archivo', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+h2 {
+   text-transform: uppercase;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* **************************** NavBar ******************************* */
+nav {
+    overflow: hidden;
+    background-color: #808080;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    padding: 18px 16px;
+}
+#mokies {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    float: left;
+}
+/* ********************************* ImagePricipale ******************************* */
+#imageprincipale {
+    padding-top: 60px;
+    background: url(media/imageprincipale1.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+h1 {
+    font-family: 'Dancing Script', sans-serif;
+    color: #D3D3D3;
+    font-size: 6em;
+    margin-top: 100px;
+    text-shadow: 1px 3px 2px black;
+    font-style: italic;
+}
+#premiertrait {
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #D3D3D3;
+    box-shadow: 1px 3px 2px black;
+}
+h3 {
+    font-family: 'Archivo', sans-serif;
+    font-style: italic;
+    color: #D3D3D3;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+}
+/* ******************************** Presentation ************************************ */
+#presentation {
+    background-color: #D3D3D3;
+    padding: 10px 0px 100px 0;
+}
+#texteintro {
+    padding: 0px 20%;
+}
+#txtpr {
+    font-family: 'Libre Baskerville', sans-serif;
+}
+#txt {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.4em;
+}
+#prestation {
+    display: block;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .imageprestation h4 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 1.8em;
+      margin: 15px;
+      font-weight: 300;
+  }
+  .imageprestation img {
+      border-radius: 10px;
+      box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+  }
+  .imageprestation img:hover {
+      opacity: 0.5;
+      transform: scale(1.05);
+      transition: 0.6s ease-in-out;
+  }
+  /* ***************************** Collab ************************ */
+  #collab {
+      height: 1400px;
+      background-color: #C0C0C0;
+      padding: 1px 2%;
+  }
+  .collabimg img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+    display: block;
+    margin: auto auto;
+    
+  }
+  #collab h2{
+      padding-top: 60px;
+  }
+ /*#proplan {
+    border-radius: 10px;
+    display: block;
+  }
+  #sante {
+    background: url(media/santevet.jpg);
+  }
+  #jouet {
+      background: url(media/kong.jpg);
+  }
+  #promenade {
+      background: url(media/julius.jpg);
+  }*/
+#collab li {
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+   /* box-shadow: 4px 4px 0 1px rgba(0,0,0,0.75); */
+}
+/*#collab p {
+    height: 45px;
+    width: 235px;
+    background-color: #DCDCDC;
+    float: inline-start;
+    margin: 50px -180px 0 0;
+}*/
+/* ****************************** Footer **************************** */
+footer {
+    background-color: #808080;
+    color: black;
+    padding: 20px 0 10px 0;
+}
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Archivo', sans-serif;
+    border-radius: 8px;
+    text-align: center;
+}
+textarea {
+    height: 120px;
+}
+button {
+    font-size: 1.5em;
+    background-color: #C0C0C0;
+}
+button:hover {
+    background-color: #e55039;
+    color: #C0C0C0;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxiemetrait {
+    height: 1px;
+    width: 75%;
+    background-color: #D3D3D3;
+    margin: 60px auto;
+}
+#copyrighteticons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: #C0C0C0;
+}
+#icons {
+    width: 50%;
+    text-align: right;
+}
+#icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
